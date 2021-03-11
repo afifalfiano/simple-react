@@ -1,0 +1,53 @@
+
+.primary-color {
+    background-color: #EEF3FD;
+}
+
+.font-section {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.height-section {
+    height: 450px;
+}
+
+.creator {
+    padding-top: 13em;
+    height: 450px;
+}
+
+.feature {
+    padding-top: 10em;
+    height: 800px;
+}
+
+.padding-bottom {
+    padding-bottom: 2em;
+}
+
+.padding-button {
+    padding-top: 5em;
+}
+
+.testimoni {
+    padding-top: 10em;
+    height: 450px;
+}
+
+.testimoni-2 {
+    transform: translateY(-100px);
+}
+
+.testimoni-3 {
+    transform: translateY(50px);
+}
+
+.footer {
+    background-color: #232BB5;
+    padding-top: 20em;
+}
+
+.footer-comp {
+    transform: translateY(600px);
+}
