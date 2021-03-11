@@ -44,10 +44,13 @@
 }
 
 .footer {
+    transform: translateY(30em);
     background-color: #232BB5;
-    padding-top: 20em;
+    /* padding-top: 100em; */
+    padding: 10em;
+    padding-bottom: 10em;
 }
 
 .footer-comp {
-    transform: translateY(600px);
+    /* transform: translateY(600px); */
 }
