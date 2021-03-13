@@ -18,7 +18,7 @@
 }
 
 .feature {
-    padding-top: 10em;
+    padding-top: 13em;
     height: 800px;
 }
 
@@ -31,12 +31,12 @@
 }
 
 .testimoni {
-    padding-top: 10em;
+    padding-top: 16em;
     height: 450px;
 }
 
 .testimoni-2 {
-    transform: translateY(-100px);
+    transform: translateY(-130px);
 }
 
 .testimoni-3 {
@@ -45,12 +45,21 @@
 
 .footer {
     transform: translateY(30em);
-    background-color: #232BB5;
+    background-color: #221E2B;
     /* padding-top: 100em; */
-    padding: 10em;
-    padding-bottom: 10em;
+    padding: 5em 0 5em 0;
 }
 
 .footer-comp {
+    color: white;
     /* transform: translateY(600px); */
+}
+
+.darklight {
+    color: rgb(206, 206, 206)
+}
+
+.copyright{
+    transform: translateY(3.9em);
+    text-align: center;
 }

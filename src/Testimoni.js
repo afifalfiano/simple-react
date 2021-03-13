@@ -3,14 +3,16 @@ import { Container, Row, Col, Button, Image } from "react-bootstrap";
 
 const Testimoni = () => {
   return (
-    <Container>
+    <Container id="diskusi">
       <Row>
         <Col className="h-25">
-            <h1>Hello World Hello World</h1>
+            <h1>Apa saja yang dipelajari?</h1>
             <div className="pt-4">
-            <Button className="mr-2">Test</Button>
-            <Button variant="light" className="mr-2">Test</Button>
-            <Button variant="light" className="mr-2">Test</Button>
+            <Button className="mr-2">HTML</Button>
+            <Button variant="warning" className="mr-2">CSS</Button>
+            <Button variant="success" className="mr-2">JS</Button>
+            <Button variant="danger" className="mr-2">UI/UX</Button>
+            <Button variant="dark" className="mr-2">PHP</Button>
             </div>
         </Col>
         <Col>
@@ -22,12 +24,9 @@ const Testimoni = () => {
         <Image src={require("./assets/image/creator.jpg")} width="500" />
         </Col>
         <Col className="testimoni-3">
-        <h1>Hello World Hello World</h1>
-        <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industrys standard dummy text
-            ever
-        </p>
+        <h1>Disediakan forum diskusi</h1>
+        <p>Anda merasa kebingungan dalam mempelajari fundamental? Tenang, kami sediakan forum diskusi</p>
+        <Button variant="success" className="mr-2">Bergabung</Button>
         </Col>
       </Row>
     </Container>

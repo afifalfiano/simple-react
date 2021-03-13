@@ -1,61 +1,57 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import { faSearch } from "@fortawesome/fontawesome-free-solid";
+import { faChalkboardTeacher, faCheck, faDollarSign } from "@fortawesome/fontawesome-free-solid";
+import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 const Feature = () => {
   return (
-    <Container>
+    <Container id="manfaat">
       <Row>
         <Col className="text-center">
-          <p>Title for feature</p>
-          <h1 className="padding-bottom">Hello World</h1>
+          <p className="text-primary">Manfaat Belajar Bersama Tech</p>
+          <h1 className="padding-bottom">Manfaat</h1>
         </Col>
       </Row>
       <Row>
         <Col>
           <i>
-            <FontAwesomeIcon icon={faSearch} size="2x" />
+            <FontAwesomeIcon icon={faCheck} size="2x" color="blue"/>
           </i>
-          <h4 className="pt-3 pb-2">Title</h4>
+          <h4 className="pt-3 pb-2">Mudah</h4>
           <p className="w-75 pb-3">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industrys standard dummy text
-            ever
+            Mudah dalam mengakses materi-materi yang telah disediakan oleh Bersama Tech. Selain itu
+            materi juga bisa didownload.
           </p>
         </Col>
         <Col>
           <i>
-            <FontAwesomeIcon icon={faSearch} size="2x" />
+            <FontAwesomeIcon icon={faDollarSign} size="2x" color="red"/>
           </i>
-          <h4 className="pt-3 pb-2">Title</h4>
+          <h4 className="pt-3 pb-2">Gratis</h4>
           <p className="w-75 pb-3">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industrys standard dummy text
-            ever
+            Tidak perlu mengeluarkan sepeser pun untuk bisa belajar hal baru di Bersama Tech.
+            Satu hal yang harus persiapkan adalah niat untuk mempelajari hal baru.
           </p>
         </Col>
       </Row>
       <Row>
         <Col>
           <i>
-            <FontAwesomeIcon icon={faSearch} size="2x" />
+            <FontAwesomeIcon icon={faChalkboardTeacher} size="2x" color="green" />
           </i>
-          <h4 className="pt-3 pb-2">Title</h4>
+          <h4 className="pt-3 pb-2">Dibimbing oleh ahlinya</h4>
           <p className="w-75 pb-3">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industrys standard dummy text
-            ever
+            Materi disampaikan oleh orang yang memang berkompeten dibidang tersebut.
+            Materi yang dibawakan akan selalu up to date.
           </p>
         </Col>
         <Col>
           <i>
-            <FontAwesomeIcon icon={faSearch} size="2x" />
+            <FontAwesomeIcon icon={faLaptopCode} size="2x" color="brown" />
           </i>
-          <h4 className="pt-3 pb-2">Title</h4>
+          <h4 className="pt-3 pb-2">Pedalam Fundamental</h4>
           <p className="w-75 pb-3">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industrys standard dummy text
-            ever
+            Untuk bisa lebih mendalam suatu hal kita harus perkuat dulu fundamental kita supaya kita tidak kesulitan untuk berinovasi.
           </p>
         </Col>
       </Row>

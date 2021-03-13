@@ -7,23 +7,23 @@ const SectionWeb = () => {
       <Row>
         <Col>
           <h1 className="m-4 text-left font-section">
-            Hellooo World Hellooo World Hellooo World Hellooo World Hellooo
-            World{" "}
+            Belajar Teknologi Tanpa Harus Bertatap Muka<br/>
+            Disinilah Solusinya, Bersama Tech
           </h1>
         </Col>
       </Row>
       <Row className="m-4 text-left">
         <Col className="pl-0">
           <p>
-            {
-              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book"
-            }
+            Bersama tech adalah sebuah platform yang digunakan untuk mempelejari suatu teknologi terutama dibidang website development.
+            Disini kita belajar mulai dari nol dan sampai bisa mmebuat suatu project sederhana dan tidak begitu komplek karena fokus kita adalah
+            paham akan fundamental.
           </p>
           <div className="pt-4">
             <Button variant="primary" className="mr-3">
-              Read More
+              Baca Detail
             </Button>
-            <Button variant="light">Details</Button>
+            <Button variant="light">Manfaat</Button>
           </div>
         </Col>
         <Col>

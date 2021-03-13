@@ -10,7 +10,7 @@ const NavigationWeb = () => {
           <Navbar className="justify-content-start">
             <Nav>
               <Nav.Link>
-                <h4>Afif Alfiano</h4>
+                <h4>Belajar Tech</h4>
               </Nav.Link>
             </Nav>
           </Navbar>
@@ -18,10 +18,10 @@ const NavigationWeb = () => {
         <Col>
           <Navbar className="justify-content-center">
             <Nav>
-              <Nav.Link href="#home">Home</Nav.Link>
-              <Nav.Link href="#features">Features</Nav.Link>
-              <Nav.Link href="#pricing">Pricing</Nav.Link>
-              <Nav.Link href="#project">Project</Nav.Link>
+              <Nav.Link href="#home">Beranda</Nav.Link>
+              <Nav.Link href="#manfaat">Manfaat</Nav.Link>
+              <Nav.Link href="#diskusi">Diskusi</Nav.Link>
+              <Nav.Link href="#tentang">Tentang</Nav.Link>
             </Nav>
           </Navbar>
         </Col>
